@@ -269,6 +269,39 @@ const GAMES = {
     },
   },
 
+  tiktok: {
+    name: "تيك توك",
+    emoji: "🎵",
+    tagline: "كوينز • شحن يوزر",
+    idLabel: "يوزر تيك توك",
+    idTitle: "اكتب يوزر تيك توك (Username)",
+    idHint: "اختياري — اكتب اسم المستخدم بس، من غير بيانات دخول.",
+    idPlaceholder: "TikTok username",
+    idInputMode: "text",
+    missingId: "هبعتلك يوزر تيك توك على واتساب.",
+    categories: {
+      coins: {
+        label: "🪙 شحن كوينز",
+        emoji: "🪙",
+        accent: "#fe2c55",
+        accentInk: "#d81b45",
+        orderLabel: "شحن كوينز تيك توك",
+        mode: "بالـ يوزر",
+        note: "🎵 شحن كوينز تيك توك بيتم على يوزر الحساب — من غير بيانات دخول. الكميات الأكبر متاحة بالطلب.",
+        items: [
+          { name: "70", unit: "كوين", price: 55 },
+          { name: "140", unit: "كوين", price: 110 },
+          { name: "350", unit: "كوين", price: 250 },
+          { name: "700", unit: "كوين", price: 490 },
+          { name: "1000", unit: "كوين", price: 650, hot: true },
+          { name: "2000", unit: "كوين", price: 1250 },
+          { name: "3000", unit: "كوين", price: 1850 },
+          { name: "5000", unit: "كوين", price: 3000 },
+        ],
+      },
+    },
+  },
+
   subscriptions: {
     name: "اشتراكات",
     emoji: "📺",
