@@ -340,13 +340,14 @@ const GAMES = {
         accentInk: "#0f766e",
         orderLabel: "اشتراكات المنصات",
         mode: "اشتراك",
-        note: "📺 يانجو بلاي، سبوتيفاي، شاهد وواتشيت — التفعيل بعد تأكيد الطلب على واتساب.",
+        note: "📺 يانجو بلاي، سبوتيفاي، شاهد، واتشيت وسناب شات — التفعيل بعد تأكيد الطلب على واتساب. سناب شات سنة بـ 400ج عرضًا، ولو العرض مش متاح السعر 500ج.",
         items: [
           { name: "يانجو بلاي", unit: "3 شهور", price: 300, textName: true, hot: true },
           { name: "يانجو بلاي", unit: "6 شهور", price: 450, textName: true },
           { name: "سبوتيفاي", unit: "3 شهور", price: 120, textName: true },
           { name: "شاهد", unit: "اشتراك", price: 120, textName: true },
           { name: "واتشيت", unit: "اشتراك", price: 120, textName: true },
+          { name: "سناب شات", unit: "سنة", price: 400, textName: true },
         ],
       },
 
@@ -359,6 +360,7 @@ const GAMES = {
         mode: "اشتراك",
         note: "🤖 جيمناي وChatGPT — ابعتلنا الإيميل أو رقم الموبايل وهنأكد مدة التفعيل على واتساب.",
         items: [
+          { name: "جيمناي بلس", unit: "6 شهور", price: 50, textName: true },
           { name: "جيمناي برو", unit: "3 شهور", price: 100, textName: true, hot: true },
           { name: "جيمناي بلس", unit: "12 شهر", price: 200, textName: true },
           { name: "ChatGPT", unit: "اشتراك", price: 500, textName: true },
