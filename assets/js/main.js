@@ -360,9 +360,7 @@ const GAMES = {
         mode: "اشتراك",
         note: "🤖 جيمناي وChatGPT — ابعتلنا الإيميل أو رقم الموبايل وهنأكد مدة التفعيل على واتساب.",
         items: [
-          { name: "جيمناي بلس", unit: "6 شهور", price: 50, textName: true },
-          { name: "جيمناي برو", unit: "3 شهور", price: 100, textName: true, hot: true },
-          { name: "جيمناي بلس", unit: "12 شهر", price: 200, textName: true },
+          { name: "جيمناي بلس", unit: "6 شهور", price: 50, textName: true, hot: true },
           { name: "ChatGPT", unit: "اشتراك", price: 500, textName: true },
         ],
       },
